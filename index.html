@@ -411,15 +411,17 @@
 						</li>
 					</ul>
 				</div>
-				<form action="" class="footer-form">
+				<form class="footer-form">
 					<p class="paragraph-footer-form">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
 					<div class="footer-form-item">
-						<label><textarea name="user-mail" class="footer-form-mail" placeholder="E-mail"></textarea></label>
-						<button type="submit" class="footer-form-submit">Підписатися
+						<label><input type="email" name="user-mail" class="footer-form-mail" placeholder="E-mail" /></label>
+						<button type="submit" class="footer-form-submit"
+							>Підписатися
 							<svg class="footer-svg-icon">
 								<use href="./images/svg/icons.svg#icon-icon_send"></use>
-							</svg>
-						</button></div>
+							</svg> </button></div
+				></form>
+			</div>
 		</footer>
 		<!-- /FOOTER -->
 		<div class="backdrop is-hidden" data-modal>
@@ -472,7 +474,9 @@
 					</label>
 					<input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check hidden-title" />
 					<label for="user-policy" class="modal-form-check-desc">
-						Погоджуюся з розсилкою та приймаю&nbsp;<a href="">Умови договору</a></label
+						Погоджуюся з розсилкою та приймаю&nbsp;<a class="modal-form-check-desc-link" href=""
+							>Умови договору</a
+						></label
 					>
 					<button type="submit" class="modal-form-submit">Відправити</button>
 				</form>
